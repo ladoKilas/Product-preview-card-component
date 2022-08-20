@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+body{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 375px;
+    background-color:hsl(0, 0%, 100%) ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+
+
+.perfume-bottle{
+    width: 375px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+.first-p{
+    text-transform: uppercase;
+}
+
+.description{
+    margin: 0 30px;
+}
+
+.description-p{
+   width: 300px;
+}
+
+h1{
+    text-transform: capitalize;
+    font-family: 'Fraunces';
+    font-weight: 700;
+}
+
+.price-h1{
+    color: hsl(158, 36%, 37%);
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+}
+
+.little-price{
+    margin: 20px;
+   text-decoration: line-through;
+}
+
+button{
+    background-color:hsl(158, 36%, 37%) ;
+    padding: 15px;
+    width: 290px;
+    border-radius: 10px;
+    border-color: hsl(158, 36%, 37%);
+    border-style: solid;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+   
+}
+
+
+
+button:hover{
+    background-color: hsl(212, 21%, 14%);
+}
+
+.cart-icon{
+  margin-right: 5px;
+}
+
+ @media (min-width:768px){
+    .content{
+        display: flex;
+        flex-direction: row;
+       
+       
+        
+    }
+
+    .container{
+        width: 555px;
+        
+    }
+
+    .perfume-bottle{
+        width: 275px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    .description-p{
+        width: 220px;
+    }
+    .description{
+        width: 220px;
+        margin-right: 100px;
+       
+    }
+
+    button{
+        width: 250px;
+        margin-top: 30px;
+    }
+} 
